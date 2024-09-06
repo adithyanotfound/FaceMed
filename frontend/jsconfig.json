@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es6",            // Specify ECMAScript target version
+      "module": "commonjs",       // Specify module code generation
+      "jsx": "react",             // Allow JSX
+      "baseUrl": ".",             // Base directory
+      "paths": {                  // Allow imports relative to src
+        "@/*": ["src/*"]
+      }
+    },
+    "include": ["src/**/*", "utils.js"]      // Include all JavaScript files in src
+  }
+  
