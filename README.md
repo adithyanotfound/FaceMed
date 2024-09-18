@@ -61,7 +61,13 @@ To install TypeScript, you can use the `npm` command which comes with `node.js`:
 Run the following commands in order to install the packages and dependencies required by the app:
 
 ```
-npm install:all
+npm install
+cd frontend
+npm install
+cd ..
+cd backend
+npm install
+cd ..
 ```
 
 The prerequisites are now installed. The next step will be to get the app up and running.
