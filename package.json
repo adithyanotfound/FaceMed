@@ -1,0 +1,19 @@
+{
+  "name": "facemed",
+  "version": "1.0.0",
+  "description": "FaceMed is an innovative mobile application designed to assist healthcare professionals in emergency situations by providing instant access to a patient’s medical history through AI based facial recognition technology.",
+  "scripts": {
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && node index.js",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && npm install",
+    "install:all": "concurrently \"npm run install:frontend\" \"npm run install:backend\" \"npm run install\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
