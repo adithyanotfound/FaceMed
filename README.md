@@ -82,7 +82,10 @@ It's now time to start FaceMed and get it running
 
 ## Install docker and MongoDB Compass
 
-Docker and MongoDB Compass are not necessary but good to have if trying to setup database locally.
+Docker and MongoDB Compass are not necessary but good to have if trying to setup database locally. <br/>
+Installation Reference: <br/>
+Docker: https://docs.docker.com/engine/install/
+mongoDB Compass: https://www.mongodb.com/products/tools/compass
 
 ## Setting up MongoDB locally
 
