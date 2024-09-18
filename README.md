@@ -1,6 +1,6 @@
 # FaceMed
 
-FaceMed is an innovative mobile application designed to assist healthcare professionals in emergency situations by providing instant access to a patient’s medical history through AI based facial recognition technology.
+FaceMed is an innovative web application designed to assist healthcare professionals in emergency situations by providing instant access to a patient’s medical history through AI based facial recognition technology.
 
 **Use Case:**  
 When a patient is unable to communicate due to an accident or medical condition, FaceMed allows doctors and emergency responders to quickly identify the patient and retrieve crucial medical information such as past surgeries, ongoing medications, allergies, and chronic conditions like diabetes.
@@ -61,7 +61,13 @@ To install TypeScript, you can use the `npm` command which comes with `node.js`:
 Run the following commands in order to install the packages and dependencies required by the app:
 
 ```
-npm install:all
+npm install
+cd frontend
+npm install
+cd ..
+cd backend
+npm install
+cd ..
 ```
 
 The prerequisites are now installed. The next step will be to get the app up and running.
@@ -82,7 +88,11 @@ It's now time to start FaceMed and get it running
 
 ## Install docker and MongoDB Compass
 
-Docker and MongoDB Compass are not necessary but good to have if trying to setup database locally.
+Docker and MongoDB Compass are not necessary but good to have if trying to setup database locally. <br/>
+
+<b>Installation References:<b/> <br/>
+Docker: https://docs.docker.com/engine/install/ <br/>
+mongoDB Compass: https://www.mongodb.com/products/tools/compass
 
 ## Setting up MongoDB locally
 
