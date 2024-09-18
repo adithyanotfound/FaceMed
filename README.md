@@ -91,7 +91,7 @@ Run the following command to start a `mongoDB` instance locally development serv
 ```bash
 docker run -d --name mongodb -p 27017:27017 -v mongodata:/data/db mongo
 ```
-or get a free cloud databse cluster from https://www.mongodb.com/
+or get a free cloud database cluster from https://www.mongodb.com/
 
 ## Running FaceMed
 
