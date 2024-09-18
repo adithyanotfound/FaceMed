@@ -78,7 +78,7 @@ This `.env` file must be populated `MONGO_DB_URL` and `JWT_SECRET` for `FaceMed`
 
 # Post Configuration Steps
 
-It's now time to start Talawa-Admin and get it running
+It's now time to start FaceMed and get it running
 
 ## Install docker and MongoDB Compass
 
