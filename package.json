@@ -5,10 +5,7 @@
   "scripts": {
     "frontend": "cd frontend && npm run dev",
     "backend": "cd backend && node index.js",
-    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
-    "install:frontend": "cd frontend && npm install",
-    "install:backend": "cd backend && npm install",
-    "install:all": "concurrently \"npm run install:frontend\" \"npm run install:backend\" \"npm run install\""
+    "start": "concurrently \"npm run backend\" \"npm run frontend\""
   },
   "keywords": [],
   "author": "",
