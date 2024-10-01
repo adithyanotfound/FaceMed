@@ -237,12 +237,6 @@ const SignupUser = () => {
           {loading ? (
             <motion.div
               className="loading-spinner"
-              animate={{ rotate: 360 }}
-              transition={{
-                repeat: Infinity,
-                duration: 1,
-                ease: 'linear',
-              }}
             >
               Signing Up...
             </motion.div>
