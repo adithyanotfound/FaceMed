@@ -77,6 +77,7 @@ The prerequisites are now installed. The next step will be to get the app up and
 A file named .env is required in the backend directory of FaceMed for storing environment variables used at runtime. It is not a part of the repo and you will have to create it. For a sample of `.env` file there is a file named `.env.example` in the root directory. Create a new `.env` file by copying the contents of the `.env.example` into `.env` file. Use this command:
 
 ```
+cd backend
 cp .env.example .env
 ```
 
